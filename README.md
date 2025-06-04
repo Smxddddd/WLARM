@@ -2,6 +2,7 @@
 This dataset is designed for research on WiFi-based sensing, including indoor localization, human activity recognition, and respiration monitoring. It is collected using USRP devices with WiFi CSI and organized to support training and evaluation of models under different environmental and spatial configurations.
 
 📂 Dataset Structure
+
 ├── 1.5m/           # CSI data collected at 1.5 meters between TX and RX
 ├── 2m/             # Data at 2.0 meters
 ├── 2.5m/
@@ -14,13 +15,13 @@ This dataset is designed for research on WiFi-based sensing, including indoor lo
 ├── WLARM/          # Additional dataset for model comparison
 
 Description
+
 Each distance folder (1.5m, 2m, ..., 4m) contains CSI sequences collected at fixed transceiver distances under controlled motion and respiration states.
 Each environment folder (corridor, office, open_hall) contains data collected in corresponding real-world indoor scenes, with transceiver distance fixed at 2 meters.
 The WLARM folder contains the CSI dataset collected at a fixed transmit and receive distance of 2 meters in an indoor office environment, specifically for evaluating cross-model performance and generalization benchmarks.
 
 Notes
+
 CSI is preprocessed using the APVF subcarrier selection method.
-
 Respiration and motion labels are provided in sequence-level annotations.
-
 Data collected using USRP2954 SDR platforms at 5.32 GHz, sampling rate: 100 Hz.
