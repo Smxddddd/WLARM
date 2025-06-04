@@ -1,5 +1,5 @@
 # WLARM
-This dataset is designed for research on WiFi-based sensing, including indoor localization, human activity recognition, and respiration monitoring. It is collected using USRP devices with WiFi CSI and organized to support training and evaluation of models under different environmental and spatial configurations.
+This dataset is designed for research on WiFi-based sensing, including indoor localization, human activity recognition, and respiration monitoring. It is collected using USRP devices with WiFi CSI and organized to support training and evaluation of models under different environmental and spatial configurations.//
 📂 Dataset Structure
 ├── 1.5m/           # CSI data collected at 1.5 meters between TX and RX
 ├── 2m/             # Data at 2.0 meters
