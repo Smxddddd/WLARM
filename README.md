@@ -4,14 +4,23 @@ This dataset is designed for research on WiFi-based sensing, including indoor lo
 📂 Dataset Structure
 
 ├── 1.5m/           # CSI data collected at 1.5 meters between TX and RX
+
 ├── 2m/             # Data at 2.0 meters
+
 ├── 2.5m/
+
 ├── 3m/
+
 ├── 3.5m/
+
 ├── 4m/
+
 ├── corridor/       # Data collected in a narrow corridor
+
 ├── office/         # Data collected in an office environment
+
 ├── open_hall/      # Data collected in a large open hall
+
 ├── WLARM/          # Additional dataset for model comparison
 
 Description
